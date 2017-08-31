@@ -48,4 +48,10 @@ describe('AppComponent', () => {
       expect((<HTMLButtonElement>htmlElement).disabled).toBe(false);
     });
   });
+
+  describe(`homework03 單元測試`, () => {
+    it(`應該要有 isChecked field 且預設為 false`, () => {
+      expect(target.isChecked).toBe(false);
+    });
+  });
 });
